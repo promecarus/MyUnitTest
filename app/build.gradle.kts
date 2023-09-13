@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.promecarus.myunittest"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.promecarus.myunittest"
@@ -46,6 +46,10 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("org.mockito:mockito-core:5.5.0")
     implementation("org.mockito:mockito-inline:5.2.0")
+    implementation("androidx.test:runner:1.6.0-alpha04")
+    implementation("androidx.test.espresso:espresso-core:3.6.0-alpha01")
+    implementation("androidx.test:rules:1.6.0-alpha01")
+    implementation("androidx.test.ext:junit:1.2.0-alpha01")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
